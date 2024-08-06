@@ -4,7 +4,7 @@ import { Form, useLoaderData } from "@remix-run/react";
 import type { FunctionComponent } from "react";
 import invariant from "tiny-invariant";
 
-import { getContact } from "../data";
+import { ContactRecord, getContact } from "../data";
 
 export const loader = async ({
   params,
